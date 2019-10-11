@@ -33,11 +33,14 @@ class DreamimiUITests: XCTestCase {
     
     func testAg() {
         XCUIApplication()/*@START_MENU_TOKEN@*/.staticTexts["Продолжить"]/*[[".buttons[\"Продолжить\"].staticTexts[\"Продолжить\"]",".staticTexts[\"Продолжить\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
-                
     }
         
     func testGS() {
         XCUIApplication().staticTexts["Продолжить"].tap()
+    }
+
+    func testContinuedvkhButtonTapped() {
+        XCUIApplication().buttons["Продолжить"].tap()
     }
 
 }
