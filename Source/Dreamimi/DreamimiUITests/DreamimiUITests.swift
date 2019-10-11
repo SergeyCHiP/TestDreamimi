@@ -31,8 +31,8 @@ class DreamimiUITests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
-    func testContinueButtonTapped() {
-        
+    func testContinuedvkhButtonTapped() {
+        XCUIApplication().buttons["Продолжить"].tap()
     }
 
 }
