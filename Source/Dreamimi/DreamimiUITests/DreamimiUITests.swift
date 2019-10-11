@@ -34,5 +34,12 @@ class DreamimiUITests: XCTestCase {
     func testContinueButtonTapped() {
         
     }
+    
+    func test_zki ()  {
+        
+    XCUIApplication().buttons["Продолжить"].tap()
+        
+    }
+    
 
 }
