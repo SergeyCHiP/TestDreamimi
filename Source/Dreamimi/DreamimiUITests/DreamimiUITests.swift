@@ -34,5 +34,9 @@ class DreamimiUITests: XCTestCase {
     func testContinueButtonTapped() {
         
     }
+        
+    func testGS() {
+        XCUIApplication().staticTexts["Продолжить"].tap()
+    }
 
 }
