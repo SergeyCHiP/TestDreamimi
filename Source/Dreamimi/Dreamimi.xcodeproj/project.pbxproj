@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD84FDBB217F65BE0078FB70 /* RobotoMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD84FDB9217F65BE0078FB70 /* RobotoMono-Regular.ttf */; };
+		CD84FDBC217F65BE0078FB70 /* RobotoMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD84FDBA217F65BE0078FB70 /* RobotoMono-Bold.ttf */; };
+		CDA8C5B92334D75F0090F8EF /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8C5AE2334D75F0090F8EF /* Label.swift */; };
+		CDA8C5BA2334D75F0090F8EF /* ParallaxMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8C5AF2334D75F0090F8EF /* ParallaxMotion.swift */; };
+		CDA8C5BB2334D75F0090F8EF /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8C5B02334D75F0090F8EF /* Fonts.swift */; };
+		CDA8C5BC2334D75F0090F8EF /* Shakable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8C5B12334D75F0090F8EF /* Shakable.swift */; };
+		CDA8C5BD2334D75F0090F8EF /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8C5B22334D75F0090F8EF /* MainButton.swift */; };
+		CDA8C5BE2334D75F0090F8EF /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8C5B32334D75F0090F8EF /* Colors.swift */; };
+		CDA8C5BF2334D75F0090F8EF /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8C5B52334D75F0090F8EF /* IntroViewController.swift */; };
+		CDA8C5C02334D75F0090F8EF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8C5B62334D75F0090F8EF /* MainViewController.swift */; };
+		CDA8C5C12334D75F0090F8EF /* MainViewController-World.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8C5B82334D75F0090F8EF /* MainViewController-World.swift */; };
+		CDA8C5C42334D7860090F8EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA8C5C22334D7860090F8EF /* Main.storyboard */; };
+		CDC4124721746422006C7E3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4124621746422006C7E3C /* AppDelegate.swift */; };
+		CDC4124E21746424006C7E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC4124D21746424006C7E3C /* Assets.xcassets */; };
+		CDC4125121746424006C7E3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC4124F21746424006C7E3C /* LaunchScreen.storyboard */; };
+		CDC5412423351DAE0026B9D8 /* DreamimiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC5412323351DAE0026B9D8 /* DreamimiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDC5412623351DAE0026B9D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDC4123B21746422006C7E3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDC4124221746422006C7E3C;
+			remoteInfo = Dreamimi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD84FDB9217F65BE0078FB70 /* RobotoMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Regular.ttf"; sourceTree = "<group>"; };
+		CD84FDBA217F65BE0078FB70 /* RobotoMono-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Bold.ttf"; sourceTree = "<group>"; };
+		CDA8C5AE2334D75F0090F8EF /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		CDA8C5AF2334D75F0090F8EF /* ParallaxMotion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxMotion.swift; sourceTree = "<group>"; };
+		CDA8C5B02334D75F0090F8EF /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		CDA8C5B12334D75F0090F8EF /* Shakable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shakable.swift; sourceTree = "<group>"; };
+		CDA8C5B22334D75F0090F8EF /* MainButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
+		CDA8C5B32334D75F0090F8EF /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		CDA8C5B52334D75F0090F8EF /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		CDA8C5B62334D75F0090F8EF /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CDA8C5B82334D75F0090F8EF /* MainViewController-World.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainViewController-World.swift"; sourceTree = "<group>"; };
+		CDA8C5C32334D7860090F8EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDC4124321746422006C7E3C /* Dreamimi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dreamimi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC4124621746422006C7E3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDC4124D21746424006C7E3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDC4125021746424006C7E3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDC4125221746424006C7E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDC5412123351DAE0026B9D8 /* DreamimiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamimiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC5412323351DAE0026B9D8 /* DreamimiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamimiUITests.swift; sourceTree = "<group>"; };
+		CDC5412523351DAE0026B9D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDC4124021746422006C7E3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC5411E23351DAE0026B9D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD84FDAD217E1BDB0078FB70 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CDA8C5C22334D7860090F8EF /* Main.storyboard */,
+				CD84FDBA217F65BE0078FB70 /* RobotoMono-Bold.ttf */,
+				CD84FDB9217F65BE0078FB70 /* RobotoMono-Regular.ttf */,
+				CDC4124F21746424006C7E3C /* LaunchScreen.storyboard */,
+				CDC4124D21746424006C7E3C /* Assets.xcassets */,
+				CDC4125221746424006C7E3C /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CDA8C5AC2334D75F0090F8EF /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				CDA8C5AD2334D75F0090F8EF /* Common */,
+				CDA8C5B42334D75F0090F8EF /* View Controller */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		CDA8C5AD2334D75F0090F8EF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CDA8C5AE2334D75F0090F8EF /* Label.swift */,
+				CDA8C5AF2334D75F0090F8EF /* ParallaxMotion.swift */,
+				CDA8C5B02334D75F0090F8EF /* Fonts.swift */,
+				CDA8C5B12334D75F0090F8EF /* Shakable.swift */,
+				CDA8C5B22334D75F0090F8EF /* MainButton.swift */,
+				CDA8C5B32334D75F0090F8EF /* Colors.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CDA8C5B42334D75F0090F8EF /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CDA8C5B52334D75F0090F8EF /* IntroViewController.swift */,
+				CDA8C5B62334D75F0090F8EF /* MainViewController.swift */,
+				CDA8C5B72334D75F0090F8EF /* Helper */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		CDA8C5B72334D75F0090F8EF /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CDA8C5B82334D75F0090F8EF /* MainViewController-World.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		CDC4123A21746422006C7E3C = {
+			isa = PBXGroup;
+			children = (
+				CDC4124521746422006C7E3C /* Dreamimi */,
+				CDC5412223351DAE0026B9D8 /* DreamimiUITests */,
+				CDC4124421746422006C7E3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDC4124421746422006C7E3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDC4124321746422006C7E3C /* Dreamimi.app */,
+				CDC5412123351DAE0026B9D8 /* DreamimiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDC4124521746422006C7E3C /* Dreamimi */ = {
+			isa = PBXGroup;
+			children = (
+				CDA8C5AC2334D75F0090F8EF /* Presentation */,
+				CD84FDAD217E1BDB0078FB70 /* Resources */,
+				CDC4124621746422006C7E3C /* AppDelegate.swift */,
+			);
+			path = Dreamimi;
+			sourceTree = "<group>";
+		};
+		CDC5412223351DAE0026B9D8 /* DreamimiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDC5412323351DAE0026B9D8 /* DreamimiUITests.swift */,
+				CDC5412523351DAE0026B9D8 /* Info.plist */,
+			);
+			path = DreamimiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDC4124221746422006C7E3C /* Dreamimi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC4125521746424006C7E3C /* Build configuration list for PBXNativeTarget "Dreamimi" */;
+			buildPhases = (
+				CDC4123F21746422006C7E3C /* Sources */,
+				CDC4124021746422006C7E3C /* Frameworks */,
+				CDC4124121746422006C7E3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dreamimi;
+			productName = Dreamimi;
+			productReference = CDC4124321746422006C7E3C /* Dreamimi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDC5412023351DAE0026B9D8 /* DreamimiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC5412A23351DAE0026B9D8 /* Build configuration list for PBXNativeTarget "DreamimiUITests" */;
+			buildPhases = (
+				CDC5411D23351DAE0026B9D8 /* Sources */,
+				CDC5411E23351DAE0026B9D8 /* Frameworks */,
+				CDC5411F23351DAE0026B9D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDC5412723351DAE0026B9D8 /* PBXTargetDependency */,
+			);
+			name = DreamimiUITests;
+			productName = DreamimiUITests;
+			productReference = CDC5412123351DAE0026B9D8 /* DreamimiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDC4123B21746422006C7E3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Redmadrobot;
+				TargetAttributes = {
+					CDC4124221746422006C7E3C = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					CDC5412023351DAE0026B9D8 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = CDC4124221746422006C7E3C;
+					};
+				};
+			};
+			buildConfigurationList = CDC4123E21746422006C7E3C /* Build configuration list for PBXProject "Dreamimi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDC4123A21746422006C7E3C;
+			productRefGroup = CDC4124421746422006C7E3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDC4124221746422006C7E3C /* Dreamimi */,
+				CDC5412023351DAE0026B9D8 /* DreamimiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDC4124121746422006C7E3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC4125121746424006C7E3C /* LaunchScreen.storyboard in Resources */,
+				CDA8C5C42334D7860090F8EF /* Main.storyboard in Resources */,
+				CD84FDBC217F65BE0078FB70 /* RobotoMono-Bold.ttf in Resources */,
+				CDC4124E21746424006C7E3C /* Assets.xcassets in Resources */,
+				CD84FDBB217F65BE0078FB70 /* RobotoMono-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC5411F23351DAE0026B9D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDC4123F21746422006C7E3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA8C5C12334D75F0090F8EF /* MainViewController-World.swift in Sources */,
+				CDA8C5BB2334D75F0090F8EF /* Fonts.swift in Sources */,
+				CDA8C5BC2334D75F0090F8EF /* Shakable.swift in Sources */,
+				CDA8C5BD2334D75F0090F8EF /* MainButton.swift in Sources */,
+				CDA8C5BE2334D75F0090F8EF /* Colors.swift in Sources */,
+				CDA8C5B92334D75F0090F8EF /* Label.swift in Sources */,
+				CDC4124721746422006C7E3C /* AppDelegate.swift in Sources */,
+				CDA8C5C02334D75F0090F8EF /* MainViewController.swift in Sources */,
+				CDA8C5BA2334D75F0090F8EF /* ParallaxMotion.swift in Sources */,
+				CDA8C5BF2334D75F0090F8EF /* IntroViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC5411D23351DAE0026B9D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC5412423351DAE0026B9D8 /* DreamimiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDC5412723351DAE0026B9D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDC4124221746422006C7E3C /* Dreamimi */;
+			targetProxy = CDC5412623351DAE0026B9D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDA8C5C22334D7860090F8EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDA8C5C32334D7860090F8EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDC4124F21746424006C7E3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDC4125021746424006C7E3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDC4125321746424006C7E3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDC4125421746424006C7E3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDC4125621746424006C7E3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33R4SBX5QU;
+				INFOPLIST_FILE = Dreamimi/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.withloveforalldesigners.Dreamimi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDC4125721746424006C7E3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33R4SBX5QU;
+				INFOPLIST_FILE = Dreamimi/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.withloveforalldesigners.Dreamimi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDC5412823351DAE0026B9D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33R4SBX5QU;
+				INFOPLIST_FILE = DreamimiUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mymind-team.DreamimiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dreamimi;
+			};
+			name = Debug;
+		};
+		CDC5412923351DAE0026B9D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33R4SBX5QU;
+				INFOPLIST_FILE = DreamimiUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mymind-team.DreamimiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dreamimi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDC4123E21746422006C7E3C /* Build configuration list for PBXProject "Dreamimi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC4125321746424006C7E3C /* Debug */,
+				CDC4125421746424006C7E3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC4125521746424006C7E3C /* Build configuration list for PBXNativeTarget "Dreamimi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC4125621746424006C7E3C /* Debug */,
+				CDC4125721746424006C7E3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC5412A23351DAE0026B9D8 /* Build configuration list for PBXNativeTarget "DreamimiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC5412823351DAE0026B9D8 /* Debug */,
+				CDC5412923351DAE0026B9D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDC4123B21746422006C7E3C /* Project object */;
+}

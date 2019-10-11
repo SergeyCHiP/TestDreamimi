@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "lightningDownloadPng11527935702Oan47Ec7Ur.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "lightningDownloadPng11527935702Oan47Ec7Ur@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "lightningDownloadPng11527935702Oan47Ec7Ur@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
