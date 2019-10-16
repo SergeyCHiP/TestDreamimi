@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Wt8-VQ-yXI">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="RobotoMono-Bold.ttf">
+            <string>RobotoMono-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Intro View Controller-->
+        <scene sceneID="3f4-4s-ndr">
+            <objects>
+                <viewController id="Wt8-VQ-yXI" customClass="IntroViewController" customModule="Dreamimi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0xm-fu-rgj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="picRobotLarge" translatesAutoresizingMaskIntoConstraints="NO" id="7bw-jy-0EG">
+                                <rect key="frame" x="77" y="137" width="221" height="313"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="313" id="57J-xs-LwI"/>
+                                    <constraint firstAttribute="width" constant="221" id="UEq-hR-GQS"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Привет!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fKq-Sn-JEg" customClass="LabelH1" customModule="Dreamimi" customModuleProvider="target">
+                                <rect key="frame" x="75.5" y="344" width="63" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="XmB-30-US7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ехал грека через реку, видит грека в реке рак" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fk2-AN-12i" customClass="LabelB1" customModule="Dreamimi" customModuleProvider="target">
+                                <rect key="frame" x="75.5" y="379" width="224" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="R6r-iU-vho"/>
+                                    <constraint firstAttribute="width" constant="224" id="hdg-O6-4f6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Сунул грека руку в реку" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cF6-hQ-xAI" customClass="LabelC1" customModule="Dreamimi" customModuleProvider="target">
+                                <rect key="frame" x="107.5" y="452" width="194" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Рак за руку греку цап" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4lU-YW-nJi" customClass="LabelC1" customModule="Dreamimi" customModuleProvider="target">
+                                <rect key="frame" x="107.5" y="485" width="174" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icoHandSmall" translatesAutoresizingMaskIntoConstraints="NO" id="6Dj-Rj-xDH">
+                                <rect key="frame" x="75.5" y="454.5" width="16" height="16"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icoFlashSmall" translatesAutoresizingMaskIntoConstraints="NO" id="bwZ-Md-O5y">
+                                <rect key="frame" x="75.5" y="487.5" width="16" height="16"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WUa-dq-1B6">
+                                <rect key="frame" x="111.5" y="536" width="152" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="dfU-d6-XSh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="RobotoMono-Bold" family="Roboto Mono" pointSize="12"/>
+                                <state key="normal" title="Условия использования">
+                                    <color key="titleColor" red="0.98823529409999999" green="0.2470588235" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LBb-OO-4yZ" customClass="MainButton" customModule="Dreamimi" customModuleProvider="target">
+                                <rect key="frame" x="24" y="587" width="327" height="56"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="CpV-ps-2TP"/>
+                                </constraints>
+                                <state key="normal" title="Продолжить"/>
+                                <connections>
+                                    <action selector="nextTapped:" destination="Wt8-VQ-yXI" eventType="touchUpInside" id="P0o-fN-LH0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.078431372549019607" green="0.12549019607843137" blue="0.77254901960784317" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7bw-jy-0EG" firstAttribute="centerX" secondItem="7j6-4z-cpR" secondAttribute="centerX" id="0vl-Rf-yQz"/>
+                            <constraint firstItem="WUa-dq-1B6" firstAttribute="centerY" secondItem="4lU-YW-nJi" secondAttribute="bottom" constant="52" id="6K2-0g-LS0"/>
+                            <constraint firstItem="Fk2-AN-12i" firstAttribute="top" secondItem="fKq-Sn-JEg" secondAttribute="bottom" constant="3" id="72l-7O-cuH"/>
+                            <constraint firstItem="7j6-4z-cpR" firstAttribute="trailing" secondItem="LBb-OO-4yZ" secondAttribute="trailing" constant="24" id="7O6-ah-fZy"/>
+                            <constraint firstItem="6Dj-Rj-xDH" firstAttribute="centerY" secondItem="cF6-hQ-xAI" secondAttribute="centerY" id="9aX-il-fyc"/>
+                            <constraint firstItem="7j6-4z-cpR" firstAttribute="bottom" secondItem="LBb-OO-4yZ" secondAttribute="bottom" constant="24" id="H5j-ym-SOl"/>
+                            <constraint firstItem="LBb-OO-4yZ" firstAttribute="leading" secondItem="7j6-4z-cpR" secondAttribute="leading" constant="24" id="JsR-GA-u3u"/>
+                            <constraint firstItem="LBb-OO-4yZ" firstAttribute="top" secondItem="WUa-dq-1B6" secondAttribute="centerY" constant="29" id="MVD-D6-BFq"/>
+                            <constraint firstItem="4lU-YW-nJi" firstAttribute="leading" secondItem="bwZ-Md-O5y" secondAttribute="trailing" constant="16" id="N6a-tl-TqX"/>
+                            <constraint firstItem="cF6-hQ-xAI" firstAttribute="top" secondItem="Fk2-AN-12i" secondAttribute="bottom" constant="25" id="Nca-RQ-KLg"/>
+                            <constraint firstItem="WUa-dq-1B6" firstAttribute="centerX" secondItem="0xm-fu-rgj" secondAttribute="centerX" id="P4R-j8-bUA"/>
+                            <constraint firstItem="6Dj-Rj-xDH" firstAttribute="leading" secondItem="bwZ-Md-O5y" secondAttribute="leading" id="Q57-mV-Rza"/>
+                            <constraint firstItem="bwZ-Md-O5y" firstAttribute="centerY" secondItem="4lU-YW-nJi" secondAttribute="centerY" id="SA7-I3-t0Y"/>
+                            <constraint firstItem="Fk2-AN-12i" firstAttribute="centerX" secondItem="0xm-fu-rgj" secondAttribute="centerX" id="Uox-d5-gQ4"/>
+                            <constraint firstItem="6Dj-Rj-xDH" firstAttribute="leading" secondItem="Fk2-AN-12i" secondAttribute="leading" id="aUa-7E-fuN"/>
+                            <constraint firstItem="fKq-Sn-JEg" firstAttribute="leading" secondItem="Fk2-AN-12i" secondAttribute="leading" id="buc-uD-YoT"/>
+                            <constraint firstItem="cF6-hQ-xAI" firstAttribute="leading" secondItem="6Dj-Rj-xDH" secondAttribute="trailing" constant="16" id="gIe-Pv-WMH"/>
+                            <constraint firstItem="4lU-YW-nJi" firstAttribute="top" secondItem="cF6-hQ-xAI" secondAttribute="bottom" constant="12" id="kAi-rp-hh3"/>
+                            <constraint firstItem="7bw-jy-0EG" firstAttribute="bottom" secondItem="Fk2-AN-12i" secondAttribute="bottom" constant="23" id="yca-vH-XEb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7j6-4z-cpR"/>
+                    </view>
+                    <connections>
+                        <outlet property="bigRobot" destination="7bw-jy-0EG" id="Kkd-jj-frT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ix5-Ui-xKA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-566" y="27"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="MainViewController" id="BYZ-38-t0r" customClass="MainViewController" customModule="Dreamimi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="picCloudOne" translatesAutoresizingMaskIntoConstraints="NO" id="77L-6z-ES1">
+                                <rect key="frame" x="-274" y="48" width="572" height="372"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lightningDownloadPng11527935702Oan47Ec7Ur" translatesAutoresizingMaskIntoConstraints="NO" id="vY4-tK-keR">
+                                <rect key="frame" x="-216" y="203" width="666" height="654"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="picCloudTwo" translatesAutoresizingMaskIntoConstraints="NO" id="d8X-EB-pLm">
+                                <rect key="frame" x="77" y="325" width="555" height="267"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nGc-fW-aSu">
+                                <rect key="frame" x="77" y="177" width="221" height="313"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="221" id="6le-qp-Aqb"/>
+                                    <constraint firstAttribute="height" constant="313" id="K9h-UE-4Qw"/>
+                                </constraints>
+                                <state key="normal" image="picFlashLarge"/>
+                                <connections>
+                                    <action selector="flashTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kFB-zG-ghK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.9882352941176471" green="0.24705882352941178" blue="0.2196078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vY4-tK-keR" firstAttribute="top" secondItem="d8X-EB-pLm" secondAttribute="top" constant="-122" id="3tv-cx-auz"/>
+                            <constraint firstItem="nGc-fW-aSu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8eY-TU-iad"/>
+                            <constraint firstItem="vY4-tK-keR" firstAttribute="trailing" secondItem="nGc-fW-aSu" secondAttribute="trailing" constant="152" id="QBH-9R-6dR"/>
+                            <constraint firstItem="d8X-EB-pLm" firstAttribute="leading" secondItem="nGc-fW-aSu" secondAttribute="leading" id="TVK-TU-e3x"/>
+                            <constraint firstItem="nGc-fW-aSu" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="VnW-Np-e2u"/>
+                            <constraint firstItem="77L-6z-ES1" firstAttribute="bottom" secondItem="nGc-fW-aSu" secondAttribute="bottom" constant="-70" id="Zq3-Xo-JpW"/>
+                            <constraint firstItem="d8X-EB-pLm" firstAttribute="top" secondItem="nGc-fW-aSu" secondAttribute="top" constant="148" id="d1j-7n-Crn"/>
+                            <constraint firstItem="77L-6z-ES1" firstAttribute="trailing" secondItem="nGc-fW-aSu" secondAttribute="trailing" id="fsH-kf-xUY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="cloudOne" destination="77L-6z-ES1" id="Wsg-gm-ppB"/>
+                        <outlet property="cloudTwo" destination="d8X-EB-pLm" id="g7W-J7-Yfm"/>
+                        <outlet property="flashButton" destination="nGc-fW-aSu" id="GYq-np-CXK"/>
+                        <outlet property="lightning" destination="vY4-tK-keR" id="L6b-32-oLo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="260" y="27"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icoFlashSmall" width="16" height="16"/>
+        <image name="icoHandSmall" width="16" height="16"/>
+        <image name="lightningDownloadPng11527935702Oan47Ec7Ur" width="666" height="654"/>
+        <image name="picCloudOne" width="572" height="372"/>
+        <image name="picCloudTwo" width="555" height="267"/>
+        <image name="picFlashLarge" width="221" height="313"/>
+        <image name="picRobotLarge" width="221" height="313"/>
+    </resources>
+</document>

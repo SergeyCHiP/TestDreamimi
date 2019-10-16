@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CD84FDBB217F65BE0078FB70 /* RobotoMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD84FDB9217F65BE0078FB70 /* RobotoMono-Regular.ttf */; };
 		CD84FDBC217F65BE0078FB70 /* RobotoMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD84FDBA217F65BE0078FB70 /* RobotoMono-Bold.ttf */; };
+		CD91E7372350D58F002CE217 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD91E7362350D58F002CE217 /* SnapshotHelper.swift */; };
 		CDA8C5B92334D75F0090F8EF /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8C5AE2334D75F0090F8EF /* Label.swift */; };
 		CDA8C5BA2334D75F0090F8EF /* ParallaxMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8C5AF2334D75F0090F8EF /* ParallaxMotion.swift */; };
 		CDA8C5BB2334D75F0090F8EF /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8C5B02334D75F0090F8EF /* Fonts.swift */; };
@@ -38,6 +39,13 @@
 /* Begin PBXFileReference section */
 		CD84FDB9217F65BE0078FB70 /* RobotoMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Regular.ttf"; sourceTree = "<group>"; };
 		CD84FDBA217F65BE0078FB70 /* RobotoMono-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Bold.ttf"; sourceTree = "<group>"; };
+		CD91E7362350D58F002CE217 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
+		CD91E73C2350D8F6002CE217 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = es; path = es.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD91E73D2350D8F6002CE217 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD91E7402350D909002CE217 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = es; path = es.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD91E7412350D929002CE217 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD91E7422350D96A002CE217 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ru; path = ru.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD91E7432350D96A002CE217 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ru; path = ru.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDA8C5AE2334D75F0090F8EF /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 		CDA8C5AF2334D75F0090F8EF /* ParallaxMotion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxMotion.swift; sourceTree = "<group>"; };
 		CDA8C5B02334D75F0090F8EF /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
@@ -47,11 +55,9 @@
 		CDA8C5B52334D75F0090F8EF /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		CDA8C5B62334D75F0090F8EF /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CDA8C5B82334D75F0090F8EF /* MainViewController-World.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainViewController-World.swift"; sourceTree = "<group>"; };
-		CDA8C5C32334D7860090F8EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDC4124321746422006C7E3C /* Dreamimi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dreamimi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC4124621746422006C7E3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDC4124D21746424006C7E3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CDC4125021746424006C7E3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDC4125221746424006C7E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDC5412123351DAE0026B9D8 /* DreamimiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamimiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC5412323351DAE0026B9D8 /* DreamimiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamimiUITests.swift; sourceTree = "<group>"; };
@@ -160,6 +166,7 @@
 		CDC5412223351DAE0026B9D8 /* DreamimiUITests */ = {
 			isa = PBXGroup;
 			children = (
+				CD91E7362350D58F002CE217 /* SnapshotHelper.swift */,
 				CDC5412323351DAE0026B9D8 /* DreamimiUITests.swift */,
 				CDC5412523351DAE0026B9D8 /* Info.plist */,
 			);
@@ -212,7 +219,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1000;
-				ORGANIZATIONNAME = Redmadrobot;
+				ORGANIZATIONNAME = MindTeam;
 				TargetAttributes = {
 					CDC4124221746422006C7E3C = {
 						CreatedOnToolsVersion = 10.0;
@@ -230,6 +237,8 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
+				ru,
 			);
 			mainGroup = CDC4123A21746422006C7E3C;
 			productRefGroup = CDC4124421746422006C7E3C /* Products */;
@@ -287,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDC5412423351DAE0026B9D8 /* DreamimiUITests.swift in Sources */,
+				CD91E7372350D58F002CE217 /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +314,9 @@
 		CDA8C5C22334D7860090F8EF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CDA8C5C32334D7860090F8EF /* Base */,
+				CD91E73C2350D8F6002CE217 /* es */,
+				CD91E73D2350D8F6002CE217 /* en */,
+				CD91E7422350D96A002CE217 /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -312,7 +324,9 @@
 		CDC4124F21746424006C7E3C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CDC4125021746424006C7E3C /* Base */,
+				CD91E7402350D909002CE217 /* es */,
+				CD91E7412350D929002CE217 /* en */,
+				CD91E7432350D96A002CE217 /* ru */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -324,6 +338,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -385,6 +400,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -450,7 +466,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.withloveforalldesigners.Dreamimi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -468,7 +484,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.withloveforalldesigners.Dreamimi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
